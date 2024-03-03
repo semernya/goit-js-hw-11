@@ -4,17 +4,27 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
-    <link rel="stylesheet" href="./css/styles.css" /><link
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <form class="search-form" id="searchForm">
+      <input
+        type="text"
+        name="searchWord"
+        class="search-input"
+        placeholder="Search images..."
+      />
+      <button class="search-btn" type="submit">Search</button>
+    </form>
 
-    <a href="./1-timer.html">timer</a>
-    <br/>
-    <a href="./2-snackbar.html">snackbar</a>
+    <div class="gallery"></div>
+    <div class="loader"></div>
 
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
